@@ -1,0 +1,416 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100);
+@import url(https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap);
+
+body {
+    background-color: #a587b4;
+}
+
+h1 {
+    padding: 0; 
+    margin: 0; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color: #FFF; 
+    text-align: center; 
+    font-size: 4em;
+}
+
+
+h2 {
+    padding: 0; 
+    margin: 0; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color: #FFF; 
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: left; 
+    font-size: 25px;
+}
+h3{
+
+    position: absolute;
+    /* padding: 0;  */
+    margin-top: 50px; 
+    margin-left: 180px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color: #FFF; 
+    text-align: left; 
+    font-size: 20px;
+}
+
+hr {
+    margin-top: 10px; 
+    width: 80%;
+    border-bottom: 3px dashed #FFF; 
+}
+/**************** BODY OF PHONE ****************/
+
+.phone {
+    position: relative;
+    margin: 50px auto;
+    height: 640px;
+    width: 333px;
+    background-color: #282828;
+    border-radius: 55px;
+}
+    .lock {
+        top: 200px;
+        margin-left: 332px;
+        position: absolute;
+        height: 40px;
+        width: 5px;
+        background-color: #282828;
+        border-radius: 5px;
+    }
+    .volume {
+        top: 256px;
+        margin-left: 332px;
+        position: absolute;
+        height: 70px;
+        width: 5px;
+        background-color: #282828;
+        border-radius: 5px;
+    }
+    .top_speaker {
+        bottom: 525px;
+        position: relative;
+        margin: 0 auto;
+        width: 90px;
+        height: 10px;
+        background-color: #212121;
+        border-radius: 10px;
+        box-shadow: 0 1px 0px 0 #727272;
+    }
+    .bottom_speaker {
+        bottom: -60px;
+        position: relative;
+        margin: 0 auto;
+        width: 90px;
+        height: 10px;
+        background-color: #212121;
+        border-radius: 10px;
+        box-shadow: 0 1px 0px 0 #727272;
+    }
+    .camera {
+        top: 17px;
+        margin-left: 240px;
+        position: absolute;
+        width: 8px;
+        height: 8px;
+        background-color: #212121;
+        border-radius: 10px;
+        box-shadow: 0 1px 0px 0 #727272
+    }
+    /**************** SCREEN OF PHONE ****************/
+    
+    .screen {
+        top: 59px;
+        width: 300px;
+        height: 540px;
+        position: relative;
+        margin: 0 auto;
+        background-color: #e5e5e5;
+    }
+        .status_bar {
+            position: absolute;
+            width: inherit;
+            height: 20px;
+            background-color: black;
+        }
+        .controls {
+            bottom: 0;
+            position: absolute;
+            width: inherit;
+            height: 35px;
+            background-color: black;
+        }
+        .big_element {
+            top: 40px;
+            left: 15px;
+            position: absolute;
+            width: 270px;
+            height: 120px;
+            background-color: #82bcf7;
+        }
+        .left_column {
+            position: absolute;
+            margin-top: 180px;
+            left: 15px;
+            width: 150px;
+            height: 310px;
+            background-color: #ed7c7c;
+        }
+        .right_column_top {
+            position: absolute;
+            margin-top: 180px;
+            margin-left: 185px;
+            height: 110px;
+            width: 100px;
+            background-color: #f0f390;
+        }
+        .right_column_bottom {
+            position: absolute;
+            top: 310px;
+            margin-left: 185px;
+            height: 180px;
+            width: 100px;
+            background-color: #45d35c;
+        }
+
+
+.wifi{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    margin-left: 248px;
+    margin-top: 1px;
+    background-image: url(../img/wifi-signal.svg);
+    background-size: cover;
+    -webkit-transform-origin: 100% -55vh; 
+    transform-origin: 50% -55vh;
+    z-index: 2;
+}
+
+.battery{
+    position: absolute;
+    margin-left: 270px;
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/low-battery-level.svg);
+    background-size: cover;
+    /* -webkit-transform-origin: 100% -55vh;  */
+    /* transform-origin: 100% -55vh; */
+    z-index: 2;
+}
+.signal{
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 2px;
+    width: 15px;
+    height: 15px;
+    background-image: url(../img/signal.svg);
+    background-size: cover;
+    /* -webkit-transform-origin: 100% -55vh;  */
+    /* transform-origin: 100% -55vh; */
+    z-index: 2;
+}
+.tmobile{
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 2px;
+    width: 15px;
+    height: 15px;
+    background-image: url(../img/tmobile.svg);
+    background-size: cover;
+    /* -webkit-transform-origin: 100% -55vh;  */
+    /* transform-origin: 100% -55vh; */
+    z-index: 2;
+}
+.facebook{
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/facebook.svg);
+    background-size: cover;
+    /* -webkit-transform-origin: 100% -55vh;  */
+    /* transform-origin: 100% -55vh; */
+    z-index: 2;
+}
+.whatsapp{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 15px;
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/whatsapp.svg);
+    background-size: cover;
+    /* -webkit-transform-origin: 100% -55vh;  */
+    /* transform-origin: 100% -55vh; */
+    z-index: 2;
+}
+.youtube{
+    position: absolute;
+    margin-left: 85px;
+    margin-top: 89px;
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/youtube.svg);
+    background-size: cover;
+    /* -webkit-transform-origin: 100% -55vh;  */
+    /* transform-origin: 100% -55vh; */
+    z-index: 2;
+}
+.snap{
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 89px;
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/snapchat.svg);
+    background-size: cover;
+    /* -webkit-transform-origin: 100% -55vh;  */
+    /* transform-origin: 100% -55vh; */
+    z-index: 2;
+}
+.messenger{
+    position: absolute;
+    margin-left: 16px;
+    margin-top: 162px;
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/messenger.svg);
+    background-size: cover;
+    /* -webkit-transform-origin: 100% -55vh;  */
+    /* transform-origin: 100% -55vh; */
+    z-index: 2;
+}
+.linkedin{
+    position: absolute;
+    margin-left: 87px;
+    margin-top: 160px;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/linkedin.svg);
+    background-size: cover;
+    /* -webkit-transform-origin: 100% -55vh;  */
+    /* transform-origin: 100% -55vh; */
+    z-index: 2;
+}
+.google-maps{
+    position: absolute;
+    margin-left: 85px;
+    margin-top: 235px;
+    width: 57px;
+    height: 57px;
+    background-image: url(../img/google-maps.svg);
+    background-size: cover;
+    /* -webkit-transform-origin: 100% -55vh;  */
+    /* transform-origin: 100% -55vh; */
+    z-index: 2;
+}
+.skype{
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 237px;
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/skype.svg);
+    background-size: cover;
+    /* -webkit-transform-origin: 100% -55vh;  */
+    /* transform-origin: 100% -55vh; */
+    z-index: 2;
+}
+.google-drive{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 23px;
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/google-drive.svg);
+    background-size: cover;
+    /* -webkit-transform-origin: 100% -55vh;  */
+    /* transform-origin: 100% -55vh; */
+    z-index: 2;
+}
+.gmail{
+    position: absolute;
+    margin-left: 22px;
+    margin-top: 98px;
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/gmail.svg);
+    background-size: cover;
+    /* -webkit-transform-origin: 100% -55vh;  */
+    /* transform-origin: 100% -55vh; */
+    z-index: 2;
+}
+.calender{
+    position: absolute;
+    margin-left: 22px;
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    background-image: url(../img/calendar.svg);
+    background-size: cover;
+    /* -webkit-transform-origin: 100% -55vh;  */
+    /* transform-origin: 100% -55vh; */
+    z-index: 2;
+}
+/* .to-do-list{
+    position: absolute;
+    margin-left: 190px;
+    /* margin-top: px; 
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/to-do-list.svg);
+    background-size: cover;
+
+    z-index: 2;
+} */
+.cloudy{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 0px;
+    width: 60px;
+    height: 60px;
+    background-image: url(../img/sun.svg);
+    background-size: cover;
+    /* -webkit-transform-origin: 100% -55vh;  */
+    /* transform-origin: 100% -55vh; */
+    z-index: 1;
+}
+
+  .clock {
+    height: 8vh;
+    color: white;
+    margin-left: 10px;
+    font-size: 4vh;
+    font-family: sans-serif;
+    line-height: 10.4vh;
+    display: flex;
+    position: absolute;
+    /*background: green;*/
+    overflow: hidden;
+    z-index: 3;
+  }
+  
+  .clock::before, .clock::after {
+    content: '';
+    width: 7ch;
+    height: 3vh;
+    /* background: linear-gradient(to top, transparent, black); */
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .clock::after {
+    bottom: 0;
+    /* background: linear-gradient(to bottom, transparent, black); */
+  }
+  
+  .clock > div {
+    display: flex;
+  }
+  
+  .tick {
+    line-height: 10.4vh;
+  }
+  
+  .tick-hidden {
+    opacity: 0;
+  }
+  
+  .move {
+    animation: move linear 1s infinite;
+  }
+  
+  @keyframes move {
+    from {
+      transform: translateY(0vh);
+    }
+    to {
+      transform: translateY(-20vh);
+    }
+  }
+  
